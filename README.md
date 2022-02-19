@@ -5,3 +5,6 @@
 ## - Modules in Node
 ## - Basic Server in Node
 ## - What is Package.json & It's Installation
+## - Nodemon and how to use it
+## - Make Simple Get API
+## - Input from CLI in Node
