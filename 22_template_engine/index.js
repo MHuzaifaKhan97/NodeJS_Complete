@@ -13,9 +13,14 @@ app.get('/profile',(req,res)=> {
     const user = {
         name : "Huzaifa",
         email: "huzaifa@gmail.com",
-        city: "Karachi"
+        city: "Karachi",
+        skills: ['JavaScript','Flutter','Xamarin','React']
     }
     res.render('profile', {user});
+})
+
+app.get('/login',(req,res) => {
+    res.render('login');
 })
 
 app.listen(3000);

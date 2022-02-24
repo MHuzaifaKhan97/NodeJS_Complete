@@ -4,9 +4,18 @@
     <title>Profile Page</title>
 </head>
 <body>
+    <%- include('common/header'); %>
+
     <h1>Profile Screen</h1>
     <h2>Welcome <%= user.name %></h2>
     <h3>Email: <%= user.email %></h3>
     <h3>City: <%= user.city %></h3>
+    <ul>
+        <% user.skills.forEach((skill) => { %>
+            <li>
+                <%= skill %>
+            </li>
+       <% }) %>
+    </ul>
 </body>
 </html>
