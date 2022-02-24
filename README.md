@@ -15,3 +15,6 @@
 ## - How NodeJS Work
 ## - ExpressJS Introduction
 ## - Routing in Node
+## - Rendering HTML in Node
+## - Rendering HTML Pages in Node
+## - Remove extensions from url and add 404 page in Node
